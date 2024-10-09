@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Project Name
+
+CAR DEALER
+
+## Overview
+
+This application is designed to provide users with information about various car makes and models through a user-friendly interface.
+
+## Features
+
+- **Feature 1**: Search for car makes by type.
+- **Feature 2**: View detailed information about selected car models.
+- **Feature 3**: Filter results by year and make.
+- **Feature 4**: Responsive design for mobile and desktop users.
+
+## Architecture
+
+- **Frontend**: Built with [Next.js](https://nextjs.org/), leveraging React for UI components.
+- **State Management**: Utilizes [React Query](https://tanstack.com/query/latest) for efficient data fetching and caching.
+- **API**: The application interacts with the [NHTSA Vehicle API](https://vpic.nhtsa.dot.gov/api/) to fetch car data.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Node.js (version 14 or higher)
+- npm or yarn
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Install dependencies:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- yarn install
 
-## Learn More
+2. Run the Application
 
-To learn more about Next.js, take a look at the following resources:
+- yarn dev
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Build the Application
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- yarn build
